@@ -20,57 +20,45 @@ eleventyNavigation:
     <!-- ============================================ -->
 
     <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
+        <h1 id="home-h">About</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="/assets/svgs/deadlift.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/svgs/deadlift.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/svgs/deadlift.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
         </picture>
 
     </section>
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+   <!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
-            </div>
+<section id="sbs-250">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/svgs/profile.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/svgs/profile.jpg">
+            <img loading="lazy" decoding="async" src="/assets/svgs/profile.jpg" alt="hiker" width="522" height="522" aria-hidden="true">
+        </picture>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper"></span>
+            <h2 class="cs-title">About Austin</h2>
+            <p class="cs-text">
+                Hello! I am Austin, a dedicated husband, father to two beautiful daughters, avid climber, coffee drinker, and a certified personal trainer.
+My journey into fitness started during my childhood, where personal discomfort spurred a commitment to uncovering a healthier way of living. This dedication has fueled my life's purpose – assisting others in realizing their full potential.
+Over time, my training philosophy has evolved from heavy lifting to encompass a spectrum of fluid and functional movements, ensuring a comprehensive and tailored approach.
+In 2020, I attained certification from the National Academy of Sports Medicine (NASM), fortifying my commitment to the growth of others and contributing to the community.  I know how confusing and hard it can be to start to reach your goals. 
+I am here to provide a supportive platform for your fitness journey. Let us embark on a path that aligns with your goals, employing strategic methodologies for sustainable and transformative results.
+
+            </p>
+            
         </div>
-    </section>
+    </div>
+</section>
+                                
 
-    {% include 'components/cta.html' %}
+    
 
 {% endblock %}
